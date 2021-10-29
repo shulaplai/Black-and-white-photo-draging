@@ -8,7 +8,7 @@ const client = new MongoClient(url);
 // Database Name
 const dbName = "questiongame";
 
-async function main() {
+export async function  getMongodbQuestion(question) {
   // Use connect method to connect to the server
   await client.connect();
   console.log("Connected successfully to server");
@@ -19,9 +19,3 @@ async function main() {
 
   return "done.";
 }
-export default async function 
-main()
-  .then(console.log)
-  .catch(console.error)
-  .finally(() => client.close());
-
