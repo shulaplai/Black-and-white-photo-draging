@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import question from "./question.js";
 
 function App() {
   const fruit = [
@@ -39,3 +39,4 @@ function App() {
 }
 
 export default App;
+

@@ -1,4 +1,4 @@
-const fruit = [
+const question = [
   "apple",
   "banana",
   "orange",

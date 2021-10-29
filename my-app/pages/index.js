@@ -1,12 +1,15 @@
 import Head from "next/head";
+import clientPromise from '../lib/mongo.js'
 
-export default function Home() {
+export default function Home({  }) {
   return (
     
     <div class=" pt-56 p-20	">
       <Head>
       
     </Head>
+  
+         
       <div class="bg-white flex items-center justify-self-center rounded-full shadow-xl">
         <input
           class="rounded-l-full w-full  px-6 text-gray-700 leading-tight focus:outline-none"
@@ -22,5 +25,8 @@ export default function Home() {
         </div>
       </div>
     </div>
+    
   );
 }
+
+      
