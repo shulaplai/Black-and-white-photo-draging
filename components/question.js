@@ -1,7 +1,7 @@
-import { getMongodbQuestion } from "../pages/api/mongo.js";
+// import { getMongodbQuestion } from "../pages/api/mongo.js";
 
-const questions = [
-  getMongodbQuestion
-];
+// const questions = [
+//   getMongodbQuestion
+// ];
 
-export default questions
+// export default questions
