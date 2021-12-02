@@ -15,7 +15,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-search-input": "^0.11.3",
-    "tls": "^0.0.1"
+    "tls": "^0.0.1",
+    "versor": "^0.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",

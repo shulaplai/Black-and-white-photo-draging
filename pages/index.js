@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import versor from "../components/drag";
 export default function Home({}) {
   return (
     <div className=" pt-56 p-20	">
@@ -11,7 +11,7 @@ export default function Home({}) {
           type="text"
           placeholder="Search"
         />
-
+<versor/>
         <div className="p-4">
           <button className="bg-blue-500 text-white rounded-full p-2 hover:bg-blue-400 focus:outline-none w-12 h-12 flex items-center justify-center">
             icon
