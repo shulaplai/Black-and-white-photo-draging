@@ -40,23 +40,23 @@ export const services: Service[] = [
 ];
 
 export const languages: Skill[] = [
-  
   {
     Icon: BsCircleFill,
     name: "Java Script",
     level: "60",
   },
+  
   {
     Icon: BsCircleFill,
-    name: "React Native",
-    level: "30",
+    name: " Python",
+    level: "40",
   },
   {
     Icon: BsCircleFill,
     name: "React",
     level: "70",
   },
-  
+
   {
     Icon: BsCircleFill,
     name: "Tailwind",
@@ -91,17 +91,17 @@ export const projects: IProject[] = [
   {
     name: "Next-js-blog",
     description: "This blog is developed by next-js and strapi",
-    image_path: "",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/../public/images/blog.png",
+    deployed_url: "https://roastedtea.click/",
+    github_url: "https://github.com/shulaplai/next-blog-frontend",
     category: ["react"],
     key_techs: ["React", "Next-js", "Material UI"],
   },
   {
     name: "A Detective Game",
-    image_path: "",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/../public/images/detective.png",
+    deployed_url: "https://cranky-shirley-d9db8a.netlify.app/",
+    github_url: "https://github.com/shulaplai/nextjs-detective-game",
     category: ["react"],
     description: "This is a simple detective game",
     key_techs: ["React", "Next-js", "Tailwind"],
@@ -109,43 +109,31 @@ export const projects: IProject[] = [
 
   {
     name: "Recommend a book",
-    image_path: "",
-    deployed_url: "",
-    github_url: "",
+    image_path: "/../public/images/book.png",
+    deployed_url: "https://vigilant-booth-eb4688.netlify.app/",
+    github_url: "https://github.com/shulaplai/recommend-a-book",
     category: ["react"],
     description: "This will recommend a book to visitor",
     key_techs: ["React", "Material Ui"],
   },
 
-  {
-    name: "Profoilo",
-    image_path: "",
-    deployed_url: "",
-    github_url: "",
-    category: ["react"],
-    description: "You are looking it!",
-    key_techs: ["React", "Tailwind"],
-  },
+  // {
+  //   name: "Profoilo",
+  //   image_path: "",
+  //   deployed_url: "",
+  //   github_url: "",
+  //   category: ["react"],
+  //   description: "You are looking it!",
+  //   key_techs: ["React", "Tailwind"],
+  // },
 
-  {
-    name: "Max scherzer website",
-    image_path: "",
-    deployed_url: "",
-    github_url: "",
-    category: [ "react"],
-    description:
-      "This is for my favorite baseball player Max scherzer",
-    key_techs: ["React" ],
-  },
-
-  {
-    name: "Black and White Photo Versor Dragging",
-    image_path: "",
-    deployed_url: "",
-    github_url: "",
-    category: ["react"],
-    description:
-      "You can drag photo in this website",
-    key_techs: ["React"],
-  },
+  // {
+  //   name: "Max scherzer website",
+  //   image_path: "",
+  //   deployed_url: "",
+  //   github_url: "",
+  //   category: ["react"],
+  //   description: "This is for my favorite baseball player Max scherzer",
+  //   key_techs: ["React"],
+  // },
 ];
