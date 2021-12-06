@@ -91,7 +91,7 @@ export const projects: IProject[] = [
   {
     name: "Next-js-blog",
     description: "This blog is developed by next-js and strapi",
-    image_path: "/public/images/blog.png",
+    image_path: "../public/images/blog.png",
     deployed_url: "https://roastedtea.click/",
     github_url: "https://github.com/shulaplai/next-blog-frontend",
     category: ["react"],
@@ -99,7 +99,7 @@ export const projects: IProject[] = [
   },
   {
     name: "A Detective Game",
-    image_path: "/../public/images/detective.png",
+    image_path: "../public/images/detective.png",
     deployed_url: "https://cranky-shirley-d9db8a.netlify.app/",
     github_url: "https://github.com/shulaplai/nextjs-detective-game",
     category: ["react"],
