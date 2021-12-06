@@ -99,7 +99,7 @@ export const projects: IProject[] = [
   },
   {
     name: "A Detective Game",
-    image_path: "../public/images/detective.png",
+    image_path: "/images/detective.png",
     deployed_url: "https://cranky-shirley-d9db8a.netlify.app/",
     github_url: "https://github.com/shulaplai/nextjs-detective-game",
     category: ["react"],
@@ -109,7 +109,7 @@ export const projects: IProject[] = [
 
   {
     name: "Recommend a book",
-    image_path: "/../public/images/book.png",
+    image_path: "/images/book.png",
     deployed_url: "https://vigilant-booth-eb4688.netlify.app/",
     github_url: "https://github.com/shulaplai/recommend-a-book",
     category: ["react"],
