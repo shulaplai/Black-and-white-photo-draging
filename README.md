@@ -2,7 +2,7 @@
 
 ### Developer Portfolio made with Next JS Framer Motion and TypeScript.
 
-![Portfolio](/images/profoilo.png "Title")
+![Portfolio](/images/profoilo.png)
 
 ## Installation
 
