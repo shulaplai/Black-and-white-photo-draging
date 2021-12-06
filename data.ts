@@ -91,7 +91,7 @@ export const projects: IProject[] = [
   {
     name: "Next-js-blog",
     description: "This blog is developed by next-js and strapi",
-    image_path: "../public/images/blog.png",
+    image_path: "./public/images/blog.png",
     deployed_url: "https://roastedtea.click/",
     github_url: "https://github.com/shulaplai/next-blog-frontend",
     category: ["react"],
