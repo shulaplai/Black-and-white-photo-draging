@@ -13,15 +13,7 @@ const Sidebar = () => {
  
   return (
     <>
-      <Image
-        src="/images/blog.png"
-        alt="avatar"
-        className=" mx-auto border rounded-full "
-        height="128px"
-        width="128px"
-        layout="intrinsic"
-        quality="100"
-      />
+      
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green ">Lai</span> Shu Lap
       </h3>

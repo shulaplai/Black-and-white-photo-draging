@@ -22,4 +22,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "Tailwind" | "express" | "django" | "react Native";
+export type Category = "react" | "tailwind" | "express" | "django" | "react Native";
