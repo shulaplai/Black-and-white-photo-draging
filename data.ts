@@ -100,7 +100,7 @@ export const projects: IProject[] = [
   {
     name: "A Detective Game",
     image_path: "/images/detective.png",
-    deployed_url: "https://cranky-shirley-d9db8a.netlify.app/",
+    deployed_url: "https://detective-game.netlify.app/",
     github_url: "https://github.com/shulaplai/nextjs-detective-game",
     category: ["react", "tailwind"],
     description: "This is a simple detective game",
@@ -110,7 +110,7 @@ export const projects: IProject[] = [
   {
     name: "Recommend a book",
     image_path: "/images/book.png",
-    deployed_url: "https://vigilant-booth-eb4688.netlify.app/",
+    deployed_url: "https://random-recommend-book.netlify.app/",
     github_url: "https://github.com/shulaplai/recommend-a-book",
     category: ["react", "tailwind"],
     description: "This will recommend a book to visitor",
@@ -120,7 +120,7 @@ export const projects: IProject[] = [
   {
     name: "Simple portfolio",
     image_path: "/images/profoilo.png",
-    deployed_url: "https://profoilo-simple.vercel.app/",
+    deployed_url: "https://2021-portfolio-simple.vercel.app/",
     github_url: "https://github.com/shulaplai/profoilo-simple",
     category: ["react", "tailwind"],
     description: "You are looking it!",
